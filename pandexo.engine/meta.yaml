@@ -27,6 +27,8 @@ requirements:
     - stsci.distutils >=0.3.7
     - d2to1 >=0.2.11
     - pysynphot
+    - pyfftw
+    
   run:
     - python
     - numpy >=1.12.1
@@ -40,6 +42,7 @@ requirements:
     - stsci.distutils >=0.3.7
     - d2to1 >=0.2.11
     - pysynphot
+    - pyfftw
 
 test:
   imports:
