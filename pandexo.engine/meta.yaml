@@ -26,6 +26,7 @@ requirements:
     - astropy
     - stsci.distutils >=0.3.7
     - d2to1 >=0.2.11
+    - pysynphot
   run:
     - python
     - numpy >=1.12.1
@@ -38,6 +39,7 @@ requirements:
     - astropy
     - stsci.distutils >=0.3.7
     - d2to1 >=0.2.11
+    - pysynphot
 
 test:
   imports:
