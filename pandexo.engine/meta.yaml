@@ -7,7 +7,7 @@ package:
 
 source:
   git_rev: master
-  git_url: https://github.com/mattjhill/PandExo.git
+  git_url: https://github.com/natashabatalha/PandExo.git
 
 build:
   number: 0
@@ -28,6 +28,8 @@ requirements:
     - d2to1 >=0.2.11
     - pysynphot
     - pyfftw
+    - mpmath
+    - batman
     
   run:
     - python
@@ -43,6 +45,8 @@ requirements:
     - d2to1 >=0.2.11
     - pysynphot
     - pyfftw
+    - mpmath
+    - batman
 
 test:
   imports:
